@@ -1,0 +1,32 @@
+2024-05-04 13:43:45,449 INFO    MainThread:11324 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-05-04 13:43:45,449 INFO    MainThread:11324 [wandb_setup.py:_flush():76] Configure stats pid to 11324
+2024-05-04 13:43:45,449 INFO    MainThread:11324 [wandb_setup.py:_flush():76] Loading settings from C:\Users\yasin\.config\wandb\settings
+2024-05-04 13:43:45,449 INFO    MainThread:11324 [wandb_setup.py:_flush():76] Loading settings from C:\Users\yasin\Downloads\INM706_CW\wandb\settings
+2024-05-04 13:43:45,450 INFO    MainThread:11324 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-04 13:43:45,450 INFO    MainThread:11324 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'Downloads\\INM706_CW\\main.py', 'program_abspath': 'C:\\Users\\yasin\\Downloads\\INM706_CW\\main.py', 'program': 'C:/Users/yasin/Downloads/INM706_CW/main.py'}
+2024-05-04 13:43:45,450 INFO    MainThread:11324 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-04 13:43:45,450 INFO    MainThread:11324 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-04 13:43:45,450 INFO    MainThread:11324 [wandb_init.py:_log_setup():521] Logging user logs to C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\logs\debug.log
+2024-05-04 13:43:45,450 INFO    MainThread:11324 [wandb_init.py:_log_setup():522] Logging internal logs to C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\logs\debug-internal.log
+2024-05-04 13:43:45,450 INFO    MainThread:11324 [wandb_init.py:init():561] calling init triggers
+2024-05-04 13:43:45,450 INFO    MainThread:11324 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {}
+2024-05-04 13:43:45,450 INFO    MainThread:11324 [wandb_init.py:init():611] starting backend
+2024-05-04 13:43:45,450 INFO    MainThread:11324 [wandb_init.py:init():615] setting up manager
+2024-05-04 13:43:45,452 INFO    MainThread:11324 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-05-04 13:43:45,455 INFO    MainThread:11324 [wandb_init.py:init():623] backend started and connected
+2024-05-04 13:43:45,460 INFO    MainThread:11324 [wandb_init.py:init():715] updated telemetry
+2024-05-04 13:43:45,468 INFO    MainThread:11324 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-05-04 13:43:45,989 INFO    MainThread:11324 [wandb_run.py:_on_init():2357] communicating current version
+2024-05-04 13:43:46,630 INFO    MainThread:11324 [wandb_run.py:_on_init():2366] got version response 
+2024-05-04 13:43:46,631 INFO    MainThread:11324 [wandb_init.py:init():799] starting run threads in backend
+2024-05-04 13:44:01,586 WARNING MsgRouterThr:11324 [router.py:message_loop():77] message_loop has been closed
+2024-05-04 13:44:01,884 ERROR   MainThread:11324 [wandb_init.py:init():1199] transport failed
+Traceback (most recent call last):
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 1181, in init
+    run = wi.init()
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 812, in init
+    run_start_result = run_start_handle.wait(timeout=30)
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\sdk\lib\mailbox.py", line 281, in wait
+    raise MailboxError("transport failed")
+wandb.sdk.lib.mailbox.MailboxError: transport failed

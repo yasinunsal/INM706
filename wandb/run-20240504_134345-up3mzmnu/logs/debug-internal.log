@@ -1,0 +1,102 @@
+2024-05-04 13:43:45,454 INFO    StreamThr :26060 [internal.py:wandb_internal():86] W&B internal server running at pid: 26060, started at: 2024-05-04 13:43:45.453234
+2024-05-04 13:43:45,455 DEBUG   HandlerThread:26060 [handler.py:handle_request():146] handle_request: status
+2024-05-04 13:43:45,461 INFO    WriterThread:26060 [datastore.py:open_for_write():87] open: C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\run-up3mzmnu.wandb
+2024-05-04 13:43:45,461 DEBUG   SenderThread:26060 [sender.py:send():379] send: header
+2024-05-04 13:43:45,468 DEBUG   SenderThread:26060 [sender.py:send():379] send: run
+2024-05-04 13:43:45,974 INFO    SenderThread:26060 [dir_watcher.py:__init__():211] watching files in: C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\files
+2024-05-04 13:43:45,974 INFO    SenderThread:26060 [sender.py:_start_run_threads():1124] run started: up3mzmnu with start time 1714826625.456225
+2024-05-04 13:43:45,990 DEBUG   HandlerThread:26060 [handler.py:handle_request():146] handle_request: check_version
+2024-05-04 13:43:45,990 DEBUG   SenderThread:26060 [sender.py:send_request():406] send_request: check_version
+2024-05-04 13:43:46,637 DEBUG   HandlerThread:26060 [handler.py:handle_request():146] handle_request: run_start
+2024-05-04 13:43:47,698 DEBUG   HandlerThread:26060 [system_info.py:__init__():26] System info init
+2024-05-04 13:43:47,698 DEBUG   HandlerThread:26060 [system_info.py:__init__():41] System info init done
+2024-05-04 13:43:47,698 INFO    HandlerThread:26060 [system_monitor.py:start():194] Starting system monitor
+2024-05-04 13:43:47,698 INFO    SystemMonitor:26060 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-04 13:43:47,699 INFO    HandlerThread:26060 [system_monitor.py:probe():214] Collecting system info
+2024-05-04 13:43:47,703 INFO    SystemMonitor:26060 [interfaces.py:start():190] Started cpu monitoring
+2024-05-04 13:43:47,703 INFO    SystemMonitor:26060 [interfaces.py:start():190] Started disk monitoring
+2024-05-04 13:43:47,704 INFO    SystemMonitor:26060 [interfaces.py:start():190] Started gpu monitoring
+2024-05-04 13:43:47,705 INFO    SystemMonitor:26060 [interfaces.py:start():190] Started memory monitoring
+2024-05-04 13:43:47,719 INFO    SystemMonitor:26060 [interfaces.py:start():190] Started network monitoring
+2024-05-04 13:43:47,720 DEBUG   HandlerThread:26060 [system_info.py:probe():150] Probing system
+2024-05-04 13:43:47,721 DEBUG   HandlerThread:26060 [system_info.py:_probe_git():135] Probing git
+2024-05-04 13:43:47,795 DEBUG   HandlerThread:26060 [system_info.py:_probe_git():143] Probing git done
+2024-05-04 13:43:47,795 DEBUG   HandlerThread:26060 [system_info.py:probe():198] Probing system done
+2024-05-04 13:43:47,795 DEBUG   HandlerThread:26060 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.8.5', 'heartbeatAt': '2024-05-04T12:43:47.720022', 'startedAt': '2024-05-04T12:43:45.446594', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:/Users/yasin/Downloads/INM706_CW/main.py', 'codePathLocal': 'main.py', 'codePath': 'Downloads\\INM706_CW\\main.py', 'git': {'remote': None, 'commit': None}, 'email': '75205838+yasinunsal@users.noreply.github.com', 'root': 'C:/Users/yasin', 'host': 'DESKTOP-3CKPHKI', 'username': 'yasin', 'executable': 'C:\\Users\\yasin\\anaconda3\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400.0, 'min': 0.0, 'max': 2401.0}, 'cpu_freq_per_core': [{'current': 2400.0, 'min': 0.0, 'max': 2401.0}], 'disk': {'/': {'total': 475.87449645996094, 'used': 437.5717430114746}}, 'gpu': 'NVIDIA GeForce RTX 2060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060', 'memory_total': 6442450944}], 'memory': {'total': 15.84646224975586}}
+2024-05-04 13:43:47,795 INFO    HandlerThread:26060 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-04 13:43:47,795 INFO    HandlerThread:26060 [system_monitor.py:probe():227] Publishing system info
+2024-05-04 13:43:47,795 DEBUG   HandlerThread:26060 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-04 13:43:47,986 INFO    Thread-16 :26060 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\files\conda-environment.yaml
+2024-05-04 13:43:58,489 DEBUG   HandlerThread:26060 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-04 13:43:58,490 INFO    HandlerThread:26060 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-04 13:43:58,698 INFO    SenderThread:26060 [sender.py:finish():1546] shutting down sender
+2024-05-04 13:43:58,698 INFO    SenderThread:26060 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-04 13:43:59,057 INFO    SenderThread:26060 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\files\conda-environment.yaml
+2024-05-04 13:43:59,058 INFO    SenderThread:26060 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\files\wandb-metadata.json
+2024-05-04 13:43:59,058 INFO    SenderThread:26060 [dir_watcher.py:finish():388] scan: C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\files
+2024-05-04 13:43:59,058 INFO    SenderThread:26060 [dir_watcher.py:finish():402] scan save: C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\files\conda-environment.yaml conda-environment.yaml
+2024-05-04 13:43:59,059 INFO    SenderThread:26060 [dir_watcher.py:finish():402] scan save: C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\files\config.yaml config.yaml
+2024-05-04 13:43:59,062 INFO    SenderThread:26060 [dir_watcher.py:finish():402] scan save: C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\files\wandb-metadata.json wandb-metadata.json
+2024-05-04 13:43:59,063 INFO    SenderThread:26060 [file_pusher.py:finish():172] shutting down file pusher
+2024-05-04 13:43:59,064 INFO    SenderThread:26060 [file_pusher.py:join():178] waiting for file pusher
+2024-05-04 13:43:59,072 INFO    WriterThread:26060 [datastore.py:close():296] close: C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\run-up3mzmnu.wandb
+2024-05-04 13:43:59,767 INFO    wandb-upload_0:26060 [upload_job.py:push():131] Uploaded file C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\files\conda-environment.yaml
+2024-05-04 13:43:59,838 ERROR   gpu       :26060 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-05-04 13:43:59,838 ERROR   gpu       :26060 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-05-04 13:43:59,938 INFO    wandb-upload_2:26060 [upload_job.py:push():131] Uploaded file C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\files\wandb-metadata.json
+2024-05-04 13:44:00,201 INFO    wandb-upload_1:26060 [upload_job.py:push():131] Uploaded file C:\Users\yasin\Downloads\INM706_CW\wandb\run-20240504_134345-up3mzmnu\files\config.yaml
+2024-05-04 13:44:00,575 INFO    SenderThread:26060 [file_stream.py:finish():614] file stream finish called
+2024-05-04 13:44:00,914 INFO    SenderThread:26060 [file_stream.py:finish():618] file stream finish is done
+2024-05-04 13:44:00,914 ERROR   StreamThr :26060 [internal.py:wandb_internal():174] Thread HandlerThread:
+Traceback (most recent call last):
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\sdk\internal\internal_util.py", line 49, in run
+    self._run()
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\sdk\internal\internal_util.py", line 100, in _run
+    self._process(record)
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\sdk\internal\internal.py", line 279, in _process
+    self._hm.handle(record)
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\sdk\internal\handler.py", line 138, in handle
+    handler(record)
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\sdk\internal\handler.py", line 148, in handle_request
+    handler(record)
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\sdk\internal\handler.py", line 688, in handle_request_run_start
+    self._tb_watcher = tb_watcher.TBWatcher(
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\sdk\internal\tb_watcher.py", line 126, in __init__
+    wandb.tensorboard.reset_state()
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\sdk\lib\lazyloader.py", line 58, in __getattr__
+    module = self._load()
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\sdk\lib\lazyloader.py", line 33, in _load
+    module = importlib.import_module(self.__name__)
+  File "C:\Users\yasin\anaconda3\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\integration\tensorboard\__init__.py", line 3, in <module>
+    from .log import _log, log, reset_state, tf_summary_to_dict  # noqa: F401
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\integration\tensorboard\log.py", line 35, in <module>
+    Summary = pb.Summary if pb else None
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\util.py", line 212, in __getattribute__
+    state.load()
+  File "C:\Users\yasin\anaconda3\lib\site-packages\wandb\util.py", line 205, in load
+    self.module.__spec__.loader.exec_module(self.module)
+  File "C:\Users\yasin\anaconda3\lib\site-packages\tensorboard\compat\proto\summary_pb2.py", line 17, in <module>
+    from tensorboard.compat.proto import tensor_pb2 as tensorboard_dot_compat_dot_proto_dot_tensor__pb2
+  File "C:\Users\yasin\anaconda3\lib\site-packages\tensorboard\compat\proto\tensor_pb2.py", line 16, in <module>
+    from tensorboard.compat.proto import resource_handle_pb2 as tensorboard_dot_compat_dot_proto_dot_resource__handle__pb2
+  File "C:\Users\yasin\anaconda3\lib\site-packages\tensorboard\compat\proto\resource_handle_pb2.py", line 16, in <module>
+    from tensorboard.compat.proto import tensor_shape_pb2 as tensorboard_dot_compat_dot_proto_dot_tensor__shape__pb2
+  File "C:\Users\yasin\anaconda3\lib\site-packages\tensorboard\compat\proto\tensor_shape_pb2.py", line 36, in <module>
+    _descriptor.FieldDescriptor(
+  File "C:\Users\yasin\anaconda3\lib\site-packages\google\protobuf\descriptor.py", line 553, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates

@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.5",
+    "heartbeatAt": "2024-05-04T12:43:47.720022",
+    "startedAt": "2024-05-04T12:43:45.446594",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:/Users/yasin/Downloads/INM706_CW/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "Downloads\\INM706_CW\\main.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "75205838+yasinunsal@users.noreply.github.com",
+    "root": "C:/Users/yasin",
+    "host": "DESKTOP-3CKPHKI",
+    "username": "yasin",
+    "executable": "C:\\Users\\yasin\\anaconda3\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400.0,
+        "min": 0.0,
+        "max": 2401.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400.0,
+            "min": 0.0,
+            "max": 2401.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 475.87449645996094,
+            "used": 437.5717430114746
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2060",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.84646224975586
+    }
+}
